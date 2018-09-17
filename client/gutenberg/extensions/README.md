@@ -9,8 +9,8 @@ Your extension should follow this structure:
 └── blockname/
     ├── editor.js    ← script loaded only in the editor
     ├── editor.scss  ← styles loaded only in the editor
-    ├── index.js     ← script loaded in the editor and theme
-    └── style.scss   ← styles loaded in the editor and theme
+    ├── view.js      ← script loaded in the editor and theme
+    └── view.scss    ← styles loaded in the editor and theme
 ```
 
 If your block depends on another block, place them all in extensions folder:
@@ -33,6 +33,6 @@ Presets follow the same structure as blocks, just under `presets` folder:
     └── presetname/
         ├── editor.js
         ├── editor.scss
-        ├── index.js
-        └── style.scss
+        ├── view.js
+        └── view.scss
 ```

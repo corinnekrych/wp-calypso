@@ -38,7 +38,7 @@ These extensions live under `client/gutenberg/extensions` directory. There are s
 
 By default, these extensions will be built under `build` folder in the same folder with entry script.
 
-Read more from [Gutenberg extensions docs](../client/gutenberg/extensions/README.md)
+Read more from [Gutenberg extension docs](../client/gutenberg/extensions/README.md).
 
 ## Extending the SDK
 

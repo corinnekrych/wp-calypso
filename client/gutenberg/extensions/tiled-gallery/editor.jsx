@@ -7,7 +7,7 @@ import { createBlock, registerBlockType } from '@wordpress/blocks';
 /**
  * Internal dependencies
  */
-import './tiled-gallery.scss';
+import './view.scss';
 import JetpackGalleryBlockEditor from './edit.js';
 import JetpackGalleryBlockSave from './save.js';
 
